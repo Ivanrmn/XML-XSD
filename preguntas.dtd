@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+  <!ELEMENT preguntas (pregunta*)>
+  <!ELEMENT pregunta (tipo, enunciado, respuesta+)>
+  <!ELEMENT tipo (#PCDATA)>
+  <!ELEMENT enunciado (#PCDATA)>
+  <!ELEMENT respuesta (#PCDATA)>
+  <!ATTLIST respuesta correcto CDATA "true">
